@@ -15,4 +15,8 @@ public class MessageUtil {
 	      System.out.println("Hello World");
 	      return message;
 	   }
+		// returns the length of the message
+	    public int getMessageLength() {
+	       return message.length();
 	}
+}
